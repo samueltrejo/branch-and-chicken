@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace BranchAndChicken.Api.Models
+{
+    public enum Specialty
+    {
+        Chudo,
+        Chousting,
+        TaeCluckDoe,
+        ChravMcgaw
+    }
+    public class Trainer
+    {
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public string Name { get; set; }
+        public int YearsOfExperience { get; set; }
+        public Specialty Specialty { get; set; }
+        public List<Chicken> Coop { get; set; }
+    }
+}

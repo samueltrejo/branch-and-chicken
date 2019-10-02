@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BranchAndChicken.Api", "BranchAndChicken.Api\BranchAndChicken.Api.csproj", "{EBD6058C-8D67-4FCA-9CDB-1A6A5C889D3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBD6058C-8D67-4FCA-9CDB-1A6A5C889D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD6058C-8D67-4FCA-9CDB-1A6A5C889D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD6058C-8D67-4FCA-9CDB-1A6A5C889D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD6058C-8D67-4FCA-9CDB-1A6A5C889D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9F25AE6-F641-4152-8175-612FDF201CC9}
+	EndGlobalSection
+EndGlobal
