@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
-using Dapper;
 
 namespace BranchAndChicken.Api.Repository
 {
@@ -15,7 +14,7 @@ namespace BranchAndChicken.Api.Repository
 
         Trainer GetTrainerFromDataReader(SqlDataReader dataReader)
         {
-            // explicit cast
+            // explicit castt
             var id = (int)dataReader["id"];
             // implicit cast
             var name = dataReader["name"] as string;
