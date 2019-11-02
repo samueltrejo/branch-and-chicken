@@ -11,6 +11,5 @@ namespace BranchAndChicken.Api.Commands
         public string Name { get; set; }
         public int YearsOfExperience { get; set; }
         public Specialty Specialty { get; set; }
-        public List<Chicken> Coop { get; set; }
     }
 }

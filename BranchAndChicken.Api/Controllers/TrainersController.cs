@@ -26,6 +26,12 @@ namespace BranchAndChicken.Api.Controllers
             return new TrainerRepository().Get(name);
         }
 
+        //[HttpGet("{id:int}")]
+        //public ActionResult<Trainer> GetById(int id)
+        //{
+        //    return new TrainerRepository().GetById(id);
+        //}
+
         [HttpDelete("{name}")]
         public IActionResult DeleteTrainer(string name)
         {
@@ -34,7 +40,7 @@ namespace BranchAndChicken.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateTrainer(UpdateTrainerCommand updatedTrainerCommand, Guid id)
+        public IActionResult UpdateTrainer(UpdateTrainerCommand updatedTrainerCommand, int id)
         {
             var repo = new TrainerRepository();
             var updatedTrainer = new Trainer
@@ -53,7 +59,7 @@ namespace BranchAndChicken.Api.Controllers
         {
             var newTrainer = new Trainer()
             {
-                Id = Guid.NewGuid(),
+                //Id = Guid.NewGuid(),
                 Name = newTrainerCommand.Name,
                 YearsOfExperience = newTrainerCommand.YearsOfExperience,
                 Specialty = newTrainerCommand.Specialty,

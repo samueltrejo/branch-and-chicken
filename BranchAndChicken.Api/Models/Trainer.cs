@@ -14,7 +14,7 @@ namespace BranchAndChicken.Api.Models
     }
     public class Trainer
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public int Id { get; set; }
         public string Name { get; set; }
         public int YearsOfExperience { get; set; }
         public Specialty Specialty { get; set; }
